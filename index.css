@@ -1,0 +1,313 @@
+
+body{
+    background-color: black;
+    color: white;
+
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 63px;
+    border-radius: 100px;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid #B1A592;
+    margin: 0 20px;
+
+}
+
+.Museo_Sansleft{
+   background-color: #323025;
+    padding-left: 30px;
+    border-radius: 50px;
+    height: 38px;
+    width: 282px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.collection_middle{
+    display: flex;
+    gap: 10px;
+    height: 45px;
+    width: 400px;
+   margin-right:180px;
+
+}
+
+.collection_middle>.collection{
+    border-radius: 50px;
+    border: 1px solid #B1A592;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+
+
+}
+
+.collection_middle>.collection:hover{
+    background-color: #B1A592;
+    color: black;
+}
+
+
+.contact_nowright{
+    border: 1px solid #B1A592;
+    border-radius: 50px;
+    height: 38px;
+    width: 184px;
+    text-align: center;
+    align-self: center;
+    padding-top: 10px;
+    margin-right: 5px;
+
+}
+
+.contact_nowright:hover{
+    background-color: #B1A592;
+    color: black;
+    
+}
+
+
+.landing_page{
+    display: flex;
+    border: 2px solid black;
+    gap: 20px;
+    margin: 3px 25px;
+
+}
+
+
+.left_Birmingham{
+    width: 550x;
+    height: 840px;
+    border-radius: 30px;
+    background-color: #DFD6C5;
+
+}
+
+.left_Birmingham:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition-duration: 2s;
+}
+
+.left_Birmingham>p{
+    border: 1px solid #323025; 
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50px ;
+    margin-left: 30px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.left_Birmingham>span{
+    margin-left: 30px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+   font-weight: 700;
+    
+
+}
+
+.left_Birmingham>img{
+    height: 600px;
+    width: 480px;
+    border-radius: 20px;
+    margin : 0px 20px;
+
+}
+
+
+.whole_slicing{
+    display: flex;
+    gap: 10px;
+}
+
+.left_slicing{
+
+    width: 360px;
+}
+
+
+
+.box_footer{
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    gap: 200px;
+    
+
+}
+
+.box_footer>.arrow{
+    padding-top: 15px;
+}
+
+
+.right_sliding{
+    border: 2px solid black;
+}
+
+.right_image>img{
+    height: 235px;
+    width: 420px;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.right_bread{
+
+    color: #323025;
+    background-color: #8E886D;
+    border-radius: 30px;
+}
+
+.left_slicing , p ,h1,span{
+    padding-left: 10px;
+
+}
+
+.left_slicing>p{
+    height: 25px;
+    width: 110px;
+    border-radius: 50px;
+    border: 1px solid #323025;
+    text-align: center;
+    padding-top: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.right_bread:hover img{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+
+.portrait_painting{
+    display: flex;
+    gap: 10px;
+}
+
+.left_portrait{
+    height: 460px;
+    width: 420px;
+    border-radius: 30px;
+    background-color: #916E58;
+}
+
+.left_portrait>img{
+     height: 168px;
+     width: 385px;
+     border-radius: 30px;
+    padding: 15px 0px 0px 15px;
+}
+
+.left_portrait:hover img{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+.right_portrait:hover img{
+    transition-duration: 2s;
+    transform: scale(1.1);
+   
+}
+
+.right_portrait{
+    height: 460px;
+    width: 420px;
+    background-color: rgb(139, 117, 117);
+    border-radius: 30px;
+}
+
+.right_portrait>span{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.right_portrait>p{
+    color: black;
+}
+
+.european{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.imageround{
+
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.imageround>img{
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+    
+
+}
+
+
+.left_portrait>h1{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 44px;
+    font-style: normal;
+    color: black;
+   
+}
+
+.left_portrait:hover h1{
+    transition: all 4s;
+    
+
+}
+
+
+.left_portrait>p{
+    color: black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ptag>p{
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: large;
+    color: black;
+
+}
+
+
+.public_domain{
+    display: flex;
+    gap: 60px;
+    padding: 20px 20px 10px 20px;
+    color: black;
+}
